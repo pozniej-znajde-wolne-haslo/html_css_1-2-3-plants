@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: Open_Sans;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Fredericka;
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+header {
+    background:  rgb(94, 123, 94) url("../img/Pic_background.jpeg") no-repeat center center;
+    background-size: cover; 
+    padding-bottom: 30px
+}
+
+h1 {
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 5px;
+    font-family: Fredericka;
+}
+
+h2 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 3px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+h4 {
+    padding-bottom: 5px;
+}
+
+header section {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header p {
+    font-size: 11px;
+}
+
+header section a {
+    background-color: black;
+}
+
+header section a:hover{
+    background-color: white;
+    color:#1c2336;
+}
+
+header nav a {
+    display: block;
+    margin-left: auto;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+header nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+main section p:first-of-type {
+    width: 350px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+main p:first-of-type {
+    font-size: 9px;
+    padding-bottom: 15px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid pink;
+    font-size: 9px;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0;
+    margin: auto;
+    margin-bottom:40px;
+}
+
+footer {
+    background-color: rgb(54, 51, 51);
+}
+
+footer nav {
+    width: 120px;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    word-spacing:7px;
+}
+
+.whiteFont {
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered p:first-of-type {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.fredericka {
+    font-family: Fredericka;
+}
+
+.open {
+    font-family: Open_Sans;
+}
+
+.button {
+    border: 1px solid rgb(32, 30, 30);
+    font-size: 10px;
+    text-decoration: none;
+    padding: 2px 12px;
+    box-shadow: white 0px .4px 2px .5px; 
+}
+
+.contactButton {
+    font-size: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding: 5px;
+    color: black;
+    border: 2px solid  rgba(95, 93, 93, 0.896);
+}
+
+div a:visited {
+
+    color: black;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 9px;
+    width: 350px; 
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+footer section a:hover{
+    background-color: white;
+    color:#1c2336;
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
